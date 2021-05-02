@@ -1,0 +1,82 @@
+.dashboard{
+    width:100%;
+    height: 100vh;
+    padding: 30px 30px 30px 30px;
+    box-sizing: border-box;
+}
+
+.details-about-store{
+    width: 90%; 
+    height: fit-content; 
+    min-height: 250px;
+    background-color: #f2f2f2;
+    padding: 20px 20px 20px 20px;
+    margin: auto;
+    margin-top: 50px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.store-img{
+    width: 100px; 
+    height: 100px;
+    background-color: blue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.information-holder{
+    display: flex;
+    width: 90%;
+    height: fit-content;
+    margin: auto;
+}
+
+.total-donation-amount{
+    width: 45%; 
+    height: 250px; 
+    background-color: red;
+    padding: 20px 20px 20px 20px;
+    margin: auto;
+    margin-top: 50px;
+    box-sizing: border-box;
+}
+
+.menu-item{
+    display: flex;
+    width: 90%;
+    height: 100px;
+    background-color: #f2f2f2;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    padding: 5px 5px 5px 5px;
+}
+
+.restaurant-info{
+    display: flex;
+}
+
+.edit-button{
+    background-color: transparent;
+    border-color: transparent;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.add-button-container{
+    width: 90%;
+    height: fit-content;
+    margin: auto;
+    margin-top:20px;
+}
+
+.add-button{
+    width: 100%;
+    height: 50px;
+    border-radius: 20px;
+    background-color: black;
+    border-color: black;
+    color: white;
+    cursor: pointer;
+}

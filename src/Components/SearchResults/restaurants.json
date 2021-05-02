@@ -1,0 +1,32 @@
+{ 
+    "DATA": {
+
+        "RESTAURANTS": [
+            {
+                "id" : 1,
+                "name": "Domino's", 
+                "address": "10 Taft Ave, Poughkeepsie, NY 12603", 
+                "img" : "https://cache.dominos.com/olo/5_11_2/assets/build/images/promo/dominos_social_logo.jpg", 
+                "food" : {
+                    "details": [4 , "Vegetable Pizza" , "https://metro.co.uk/wp-content/uploads/2019/11/veggie-pizza-2-3ad3.jpg?quality=90&strip=all"]
+                }
+            }, 
+            {
+                "id" : 2,
+                "name": "Subways", 
+                "address": "730 A Main St, Poughkeepsie, NY 12603", 
+                "img" : "https://i.pinimg.com/originals/71/24/ce/7124ce058f6e56794c8fb880b00d1db4.jpg",
+                "food" : { "details": []}
+            }, 
+            {
+                "id" : 3,
+                "name": "McDonald's", 
+                "address": "160 Broadway, New York, NY 10038", 
+                "img" : "https://i0.wp.com/www.eatthis.com/wp-content/uploads/2018/12/mcdonalds-drive-through-restaurant.jpg?fit=1200%2C879&ssl=1",
+                "food" : { "details": []}
+            }
+        ]
+    }
+}
+
+

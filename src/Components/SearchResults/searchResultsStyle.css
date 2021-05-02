@@ -1,0 +1,47 @@
+.search-results{
+    margin-top: 250px;
+    width: 100%;
+    height: 100vh;
+}
+
+.store-card{
+    display: flex;
+    width: 90%;
+    background-color: #f2f2f2;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.store-info{
+    align-self: center;
+    margin-left: 30px;
+}
+
+.margins-left{
+    margin-left: 30px;
+}
+
+.label{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.show-food-button{
+    background-color: black;
+    border-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    background-color: #d3d3d3;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+}

@@ -1,0 +1,33 @@
+.home-search{
+
+    width: 50%;
+    height: fit-content;
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px 20px 20px 20px;
+}
+
+ .tagline{
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    font-size: 40px
+ }
+
+#search-bar,.search-bar{
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    background-size: 21px 21px;
+    padding: 12px 20px 12px 40px;
+    align-self: center;
+    outline: none;
+}

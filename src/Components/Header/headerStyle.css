@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.header{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    width: 100%; 
+    height: 10vh;
+    background-color: transparent;
+    z-index: 1;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.logo{
+    color: white;
+    font-weight: bolder;
+    font-size: 50px;
+    align-self: center;
+}
+
+.logo-container{
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+}
+
+.button-container{
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    align-self: center;
+}
+
+.sign-in-button, 
+.sign-up-button{
+    width: 80px; 
+    height: 35px;
+    border-radius: 8px;
+    align-self: center;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sign-in-button{
+    margin-right: 10px;
+    background-color: transparent;
+    color: white;
+    border-color: transparent;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.sign-up-button{
+    margin-left: 10px;
+    background-color: black;
+    border-color: black;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
